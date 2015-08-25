@@ -1,0 +1,6 @@
+c:\users\neelavardhan\documents\visual studio 2013\Projects\HomeInventory\HomeInventory.WebUI\bin\HomeInventory.WebUI.dll.config
+c:\users\neelavardhan\documents\visual studio 2013\Projects\HomeInventory\HomeInventory.WebUI\bin\HomeInventory.WebUI.dll
+c:\users\neelavardhan\documents\visual studio 2013\Projects\HomeInventory\HomeInventory.WebUI\bin\HomeInventory.WebUI.pdb
+c:\users\neelavardhan\documents\visual studio 2013\Projects\HomeInventory\HomeInventory.WebUI\obj\Debug\HomeInventory.WebUI.csprojResolveAssemblyReference.cache
+c:\users\neelavardhan\documents\visual studio 2013\Projects\HomeInventory\HomeInventory.WebUI\obj\Debug\HomeInventory.WebUI.dll
+c:\users\neelavardhan\documents\visual studio 2013\Projects\HomeInventory\HomeInventory.WebUI\obj\Debug\HomeInventory.WebUI.pdb

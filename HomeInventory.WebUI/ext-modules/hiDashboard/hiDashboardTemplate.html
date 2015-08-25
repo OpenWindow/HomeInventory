@@ -1,0 +1,21 @@
+﻿<div class="hi-dashboard-header">
+  {{ title }}
+</div>
+<div gridster="gridsterOpts">
+  <ul>
+    <li gridster-item="item" ng-repeat="item in widgets">
+      <div class="hi-widget-header">
+        <span> {{item.title}}</span>
+        <div class="hi-widget-header-buttons">
+          <button class="btn btn-default pull-right">
+            <i class="fa fa-remove"></i>
+          </button>
+          <button class="btn btn-default pull-right">
+            <i class="fa fa-gear"></i>
+          </button>
+        </div>
+      </div>
+      <div class="hi-widget-body"></div>
+    </li>
+  </ul>
+</div>

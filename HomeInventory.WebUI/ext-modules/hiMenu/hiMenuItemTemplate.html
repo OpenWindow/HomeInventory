@@ -1,0 +1,7 @@
+﻿<li class="hi-selectable-item" ng-class="{'hi-item-horizontal': !isVertical()}">
+  <div class=" hi-noselect">
+    <i class="fa {{ icon }} hi-menu-icon"></i>
+    {{ label }}
+  </div>
+  <i ng-if="isActive() && isVertical()" class="fa fa-2x fa-caret-left hi-menu-active-indicator"></i>
+</li>

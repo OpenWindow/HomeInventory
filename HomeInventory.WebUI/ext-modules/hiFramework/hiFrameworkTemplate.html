@@ -1,0 +1,30 @@
+﻿<div class="hi-title-bar">
+  <div class="row">
+    <div class="hi-logo-area col-sm-6">
+      <img class="hi-icon" ng-src="{{ iconFile }}" />
+      <div class="hi-title-area">
+        <p class="hi-logo-title">{{ title}}</p>
+        <p class="hi-logo-subtitle">{{subTitle}}</p>
+      </div>
+
+      <div ng-if="isMenuButtonVisible" ng-click="menuButtonClicked()"
+           class="hi-collapsed-menu pull-right">
+        <button type="button" class="btn hi-nav-button">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+    <div class="hi-right-side-controls col-sm-6">
+      <div>
+        <button class="btn btn-primary">Button 1</button>
+        <button class="btn btn-success">Button 1</button>
+        <button class="btn btn-warning">Button 1</button>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-transclude></ng-transclude>
+<div ng-view class="hi-dashboard-view" 
+     ng-class="{'hi-dashboard-full-view': !isMenuVertical || !isMenuVisible}">
+</div>

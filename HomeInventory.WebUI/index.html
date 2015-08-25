@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Home Inventory App</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/angular-gridster.min.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
+    <link href="ext-modules/hiFramework/hiFramework.css" rel="stylesheet" />
+    <link href="ext-modules/hiMenu/hiMenu.css" rel="stylesheet" />
+    <link href="ext-modules/hiDashboard/hiDashboard.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/angular-gridster.min.js"></script>
+
+    <script src="ext-modules/hiMenu/hiMenuModule.js"></script>
+    <script src="ext-modules/hiMenu/hiMenuController.js"></script>
+    <script src="ext-modules/hiMenu/hiMenuDirective.js"></script>
+    <script src="ext-modules/hiMenu/hiMenuItemDirective.js"></script>
+    <script src="ext-modules/hiMenu/hiMenuGroupDirective.js"></script>
+
+    <script src="ext-modules/hiDashboard/hiDashboardModule.js"></script>
+    <script src="ext-modules/hiDashboard/hiDashboardDirective.js"></script>
+
+    <script src="ext-modules/hiFramework/hiFrameworkModule.js"></script>
+    <script src="ext-modules/hiFramework/hiFrameworkDirective.js"></script>
+    <script src="ext-modules/hiFramework/hiFrameworkController.js"></script>
+
+    <script src="app/appModule.js"></script>
+    <script src="app/appConfig.js"></script>
+    <script src="app/appRouteConfig.js"></script>
+    <script src="app/services/dataService.js"></script>
+
+    <script src="app/directives/wwaDashboard.js"></script>
+    <script src="app/directives/wwaFavouriteList.js"></script>
+    <script src="app/directives/wwaFriends.js"></script>
+    <script src="app/directives/wwaInventoryList.js"></script>
+
+</head>
+<body ng-controller="mainCtrl" class="container-fluid">
+    <hi-framework title="Home Inventory"
+                  sub-title="An Administrative App"
+                  icon-file="icon.png">
+        <hi-menu>
+            <hi-menu-item label="Dashboard" icon="fa-dashboard" route="dashboard"></hi-menu-item>
+            <hi-menu-item label="Friends" icon="fa-users" route="friends"></hi-menu-item>
+            <hi-menu-item label="Favourite List" icon="fa-list" route="favouriteList"></hi-menu-item>
+            <hi-menu-item label="Inventory List" icon="fa-list" route="inventoryList"></hi-menu-item>
+        </hi-menu>
+    </hi-framework>
+</body>
+</html>
